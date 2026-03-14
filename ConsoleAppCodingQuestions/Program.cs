@@ -24,7 +24,8 @@ namespace ConsoleAppCodingQuestions
                 Console.WriteLine("6. Largest Number In Array : ");
                 Console.WriteLine("7. Factorial Number : ");
                 Console.WriteLine("8. Anagram Using Dictionary : ");
-                Console.WriteLine("8. Check Anagram : ");
+                Console.WriteLine("9. Check Anagram : ");
+                Console.WriteLine("10. Check Prime Number : ");
                 Console.WriteLine("\n");
                 Console.WriteLine("Which Program You want to Execute : ");
                 num = Convert.ToInt32(Console.ReadLine());
@@ -75,6 +76,11 @@ namespace ConsoleAppCodingQuestions
                         Console.WriteLine("You Selected Check Anagarm : ");
                         CheckAnagarm checkAnagarm = new CheckAnagarm();
                         checkAnagarm.CheckAnagram();
+                        break;
+                    case 10:
+                        Console.WriteLine("You Selected Check Prime Number : ");
+                        CheckPrimeNumber checkPrimeNumber = new CheckPrimeNumber();
+                        checkPrimeNumber.CheckPrime();
                         break;
                     default:
                         Console.WriteLine("Please enter correct number.");

@@ -46,6 +46,7 @@
     <Compile Include="AnagramUsingDictionary.cs" />
     <Compile Include="ArmstrongNumber.cs" />
     <Compile Include="CheckAnagarm.cs" />
+    <Compile Include="CheckPrimeNumber.cs" />
     <Compile Include="FactorialNumber.cs" />
     <Compile Include="FibonacciSeries.cs" />
     <Compile Include="LargestNumberInArray.cs" />
