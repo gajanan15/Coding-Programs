@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnagramUsingDictionary.cs" />
     <Compile Include="ArmstrongNumber.cs" />
+    <Compile Include="FactorialNumber.cs" />
     <Compile Include="FibonacciSeries.cs" />
     <Compile Include="LargestNumberInArray.cs" />
     <Compile Include="PalindromeNumber.cs" />

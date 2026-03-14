@@ -22,6 +22,8 @@ namespace ConsoleAppCodingQuestions
                 Console.WriteLine("4. String Reverse : ");
                 Console.WriteLine("5. FibonacciSeries : ");
                 Console.WriteLine("6. Largest Number In Array : ");
+                Console.WriteLine("7. Factorial Number : ");
+                Console.WriteLine("8. Anagram : ");
                 Console.WriteLine("\n");
                 Console.WriteLine("Which Program You want to Execute : ");
                 num = Convert.ToInt32(Console.ReadLine());
@@ -57,6 +59,16 @@ namespace ConsoleAppCodingQuestions
                         Console.WriteLine("You Selected Largest Number In Array : ");
                         LargestNumberInArray largestNumberInArray = new LargestNumberInArray();
                         largestNumberInArray.LargestNumber();
+                        break;
+                    case 7:
+                        Console.WriteLine("You Selected Factorial Number : ");
+                        FactorialNumber FactorialNumber = new FactorialNumber();
+                        FactorialNumber.Factorial();
+                        break;
+                    case 8:
+                        Console.WriteLine("You Selected Factorial Number : ");
+                        AnagramUsingDictionary anagramUsingDictionary = new AnagramUsingDictionary();
+                        anagramUsingDictionary.Anagram();
                         break;
                     default:
                         Console.WriteLine("Please enter correct number.");
