@@ -10,24 +10,29 @@ namespace ConsoleAppCodingQuestions
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1. String Palindrome : ");
-            Console.WriteLine("Which Program You want to Execute : ");
-            int num = Convert.ToInt32(Console.ReadLine());
-
-            switch (num)
+            int num;
+            bool flag = true;
+            while(true)
             {
-                case 1:
-                    Console.WriteLine("You Selected String Palindrome : ");
-                    PalindromeString p = new PalindromeString();
-                    p.StringPalindrome();
-                    
-                    break;
-                default: 
-                     Console.WriteLine("Please enter correct number.");
-                    break;
+                Console.WriteLine("1. String Palindrome : ");
+                Console.WriteLine("Which Program You want to Execute : ");
+                num = Convert.ToInt32(Console.ReadLine());
 
+                switch (num)
+                {
+                    case 1:
+                        Console.WriteLine("You Selected String Palindrome : ");
+                        PalindromeString p = new PalindromeString();
+                        p.StringPalindrome();
+
+                        break;
+                    default:
+                        Console.WriteLine("Please enter correct number.");
+                        flag = false;
+                        break;
+
+                }
             }
-
         }
     }
 }
