@@ -27,6 +27,7 @@ namespace ConsoleAppCodingQuestions
                 Console.WriteLine("9. Check Anagram : ");
                 Console.WriteLine("10. Check Prime Number : ");
                 Console.WriteLine("11. Swap Number Using Temp : ");
+                Console.WriteLine("12. Swap Two Number sing 3rd Variable : ");
                 Console.WriteLine("\n");
                 Console.WriteLine("Which Program You want to Execute : ");
                 num = Convert.ToInt32(Console.ReadLine());
@@ -87,6 +88,11 @@ namespace ConsoleAppCodingQuestions
                         Console.WriteLine("You Selected Swap Number Using Temp : ");
                         SwapNumberUsingTemp swapNumberUsingTemp = new SwapNumberUsingTemp();
                         swapNumberUsingTemp.SwapUsingTemp();
+                        break;
+                    case 12:
+                        Console.WriteLine("You Selected Swap Two Number sing 3rd Variable : ");
+                        SwapTwoNumberWithoutTemp swapTwoNumberWithoutTemp = new SwapTwoNumberWithoutTemp(); 
+                        swapTwoNumberWithoutTemp.SwapWithoutTemp();
                         break;
                     default:
                         Console.WriteLine("Please enter correct number.");

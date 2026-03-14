@@ -56,6 +56,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseString.cs" />
     <Compile Include="SwapNumberUsingTemp.cs" />
+    <Compile Include="SwapTwoNumberWithoutTemp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
