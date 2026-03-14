@@ -20,6 +20,7 @@ namespace ConsoleAppCodingQuestions
                 Console.WriteLine("2. Number Palindrome : ");
                 Console.WriteLine("3. Armstrong : ");
                 Console.WriteLine("4. String Reverse : ");
+                Console.WriteLine("5. FibonacciSeries : ");
                 Console.WriteLine("\n");
                 Console.WriteLine("Which Program You want to Execute : ");
                 num = Convert.ToInt32(Console.ReadLine());
@@ -46,7 +47,11 @@ namespace ConsoleAppCodingQuestions
                         ReverseString sr = new ReverseString();
                         sr.StringReverse();
                         break;
-
+                     case 5:
+                        Console.WriteLine("You Selected Fibonacci Series : ");
+                        FibonacciSeries fs = new FibonacciSeries();
+                        fs.FibonacciNumber();
+                        break;
                     default:
                         Console.WriteLine("Please enter correct number.");
                         flag = false;
