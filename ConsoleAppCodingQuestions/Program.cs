@@ -15,9 +15,12 @@ namespace ConsoleAppCodingQuestions
 
             while(true)
             {
+                Console.WriteLine("\n");
                 Console.WriteLine("1. String Palindrome : ");
                 Console.WriteLine("2. Number Palindrome : ");
                 Console.WriteLine("3. Armstrong : ");
+                Console.WriteLine("4. String Reverse : ");
+                Console.WriteLine("\n");
                 Console.WriteLine("Which Program You want to Execute : ");
                 num = Convert.ToInt32(Console.ReadLine());
 
@@ -37,6 +40,11 @@ namespace ConsoleAppCodingQuestions
                          Console.WriteLine("You Selected Armstrong : ");
                         ArmstrongNumber arm = new ArmstrongNumber();
                         arm.Armstrong();
+                        break;
+                     case 4:
+                        Console.WriteLine("You Selected String Reverse : ");
+                        ReverseString sr = new ReverseString();
+                        sr.StringReverse();
                         break;
 
                     default:
