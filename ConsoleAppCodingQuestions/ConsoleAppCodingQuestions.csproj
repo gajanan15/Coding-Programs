@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArmstrongNumber.cs" />
     <Compile Include="PalindromeNumber.cs" />
     <Compile Include="PalindromeString.cs" />
     <Compile Include="Program.cs" />
