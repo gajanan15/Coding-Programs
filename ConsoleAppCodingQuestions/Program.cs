@@ -29,6 +29,7 @@ namespace ConsoleAppCodingQuestions
                 Console.WriteLine("11. Swap Number Using Temp : ");
                 Console.WriteLine("12. Swap Two Number Using 3rd Variable : ");
                 Console.WriteLine("13. Swap Three Number Using 3rd Variable : ");
+                Console.WriteLine("14. Count Number Of Character In String : ");
                 Console.WriteLine("\n");
                 Console.WriteLine("Which Program You want to Execute : ");
                 num = Convert.ToInt32(Console.ReadLine());
@@ -99,6 +100,11 @@ namespace ConsoleAppCodingQuestions
                          Console.WriteLine("You Selected Swap Three Number Using 3rd Variable : ");
                         SwapThreeNumberWithoutusing3rdvariable swapThreeNumberWithoutTemp = new SwapThreeNumberWithoutusing3rdvariable();
                         swapThreeNumberWithoutTemp.SwapThreeNumberWithoutTemp();
+                        break;
+                      case 14:
+                        Console.WriteLine("You Selected Count Number Of Character In String : ");
+                        CountNumberOfCharacterInString countNumberOfCharacterInString = new CountNumberOfCharacterInString();
+                        countNumberOfCharacterInString.CountCharacter();
                         break;
                     default:
                         Console.WriteLine("Please enter correct number.");
