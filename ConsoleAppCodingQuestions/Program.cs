@@ -23,7 +23,8 @@ namespace ConsoleAppCodingQuestions
                 Console.WriteLine("5. FibonacciSeries : ");
                 Console.WriteLine("6. Largest Number In Array : ");
                 Console.WriteLine("7. Factorial Number : ");
-                Console.WriteLine("8. Anagram : ");
+                Console.WriteLine("8. Anagram Using Dictionary : ");
+                Console.WriteLine("8. Check Anagram : ");
                 Console.WriteLine("\n");
                 Console.WriteLine("Which Program You want to Execute : ");
                 num = Convert.ToInt32(Console.ReadLine());
@@ -66,9 +67,14 @@ namespace ConsoleAppCodingQuestions
                         FactorialNumber.Factorial();
                         break;
                     case 8:
-                        Console.WriteLine("You Selected Factorial Number : ");
+                        Console.WriteLine("You Selected Anagram Using Dictionary : ");
                         AnagramUsingDictionary anagramUsingDictionary = new AnagramUsingDictionary();
                         anagramUsingDictionary.Anagram();
+                        break;
+                    case 9:
+                        Console.WriteLine("You Selected Check Anagarm : ");
+                        CheckAnagarm checkAnagarm = new CheckAnagarm();
+                        checkAnagarm.CheckAnagram();
                         break;
                     default:
                         Console.WriteLine("Please enter correct number.");
