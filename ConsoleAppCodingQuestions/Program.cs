@@ -21,6 +21,7 @@ namespace ConsoleAppCodingQuestions
                 Console.WriteLine("3. Armstrong : ");
                 Console.WriteLine("4. String Reverse : ");
                 Console.WriteLine("5. FibonacciSeries : ");
+                Console.WriteLine("6. Largest Number In Array : ");
                 Console.WriteLine("\n");
                 Console.WriteLine("Which Program You want to Execute : ");
                 num = Convert.ToInt32(Console.ReadLine());
@@ -51,6 +52,11 @@ namespace ConsoleAppCodingQuestions
                         Console.WriteLine("You Selected Fibonacci Series : ");
                         FibonacciSeries fs = new FibonacciSeries();
                         fs.FibonacciNumber();
+                        break;
+                    case 6:
+                        Console.WriteLine("You Selected Largest Number In Array : ");
+                        LargestNumberInArray largestNumberInArray = new LargestNumberInArray();
+                        largestNumberInArray.LargestNumber();
                         break;
                     default:
                         Console.WriteLine("Please enter correct number.");
