@@ -30,6 +30,8 @@ namespace ConsoleAppCodingQuestions
                 Console.WriteLine("12. Swap Two Number Using 3rd Variable : ");
                 Console.WriteLine("13. Swap Three Number Using 3rd Variable : ");
                 Console.WriteLine("14. Count Number Of Character In String : ");
+                Console.WriteLine("15. Call Constructor Chaining : ");
+                Console.WriteLine("16. Two Arrays Sum With Carry : ");
                 Console.WriteLine("\n");
                 Console.WriteLine("Which Program You want to Execute : ");
                 num = Convert.ToInt32(Console.ReadLine());
@@ -105,6 +107,15 @@ namespace ConsoleAppCodingQuestions
                         Console.WriteLine("You Selected Count Number Of Character In String : ");
                         CountNumberOfCharacterInString countNumberOfCharacterInString = new CountNumberOfCharacterInString();
                         countNumberOfCharacterInString.CountCharacter();
+                        break;
+                      case 15:
+                        Console.WriteLine("You Selected Call Constructor Chaining : ");
+                        ConstructorChaining C = new ConstructorChaining();
+                        break;
+                      case 16:
+                        Console.WriteLine("You Selected Two Arrays Sum With Carry : ");
+                        TwoArraySum twoArraysSumWithCarry = new TwoArraySum();
+                        twoArraysSumWithCarry.TwoArraysSumWithCarry();
                         break;
                     default:
                         Console.WriteLine("Please enter correct number.");

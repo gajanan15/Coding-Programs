@@ -47,6 +47,7 @@
     <Compile Include="ArmstrongNumber.cs" />
     <Compile Include="CheckAnagarm.cs" />
     <Compile Include="CheckPrimeNumber.cs" />
+    <Compile Include="ConstructorChaining.cs" />
     <Compile Include="CountNumberOfCharacterInString.cs" />
     <Compile Include="FactorialNumber.cs" />
     <Compile Include="FibonacciSeries.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="SwapNumberUsingTemp.cs" />
     <Compile Include="SwapThreeNumberWithoutusing3rdvariable.cs" />
     <Compile Include="SwapTwoNumberWithoutTemp.cs" />
+    <Compile Include="TwoArraySum.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
